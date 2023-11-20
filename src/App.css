@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.carouselWidth{
+  /* width: 100vw; */
+  /* height: 650px !important;  */
+  object-fit: contain;
+  max-height: 80vh !important;
+}
+
+.carousel-caption{
+  z-index: 10;
+  
+}
+
+/* footer  */
+/* h4{
+  margin: 30px 0;
+} */
+
+.footerLink{
+  display: block !important;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+
+li{
+  text-decoration: none;
+}
+
+/* .wrap{
+  display: flex;
+  width: 50vw;
+} */
+
+.footerLogo{
+  width: 25px;
+  height: 25px;
+  /* margin-left: 250px; */
+}
+
+
+.logoSize{
+  width: 100px;
+  height: 100px;
 }
